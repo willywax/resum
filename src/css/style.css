@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: 'Muli', sans-serif;
+}
+
+.row {
+  padding: 10px;
+}
+.jumbotron {
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: black;
+  background-color: white;
+}
+
+.nav-pills a {
+  color: white;
+}
+
+#about, #hobbies, #experience, #contact {
+  border: 1px solid black;
+  border-radius: 10%;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+}
+
+.selected .jumbotron{
+  background-color: white;
+  opacity: 100%;
+}
+
+.nav {
+  margin:20px;
+}
+
+.round {
+  border-radius: 80%;
+}
+
+.header-text {
+  font-family: 'Pacifico', cursive;
+}
